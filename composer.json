@@ -1,0 +1,33 @@
+{
+    "type": "library",
+    "name": "autoframe/cli-tools",
+    "description": "Cli Prompt, Text styles Bold, Italic, Blink, Underline, Text colors, Background colors...",
+    "license": "MIT",
+    "homepage": "https://github.com/autoframe",
+    "require": {
+        "php": ">=7.4"
+    },
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Nistor Alexandru Marius",
+            "homepage": "https://autoframe.ro",
+            "role": "Developer"
+        }
+    ],
+    "keywords": [
+        "Cli Prompt",
+        "CLi Colors",
+        "Cli Background Colors",
+        "Cli Bold text",
+        "Cli Italic",
+        "Cli Underline",
+        "Cli blink",
+        "isCli"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Autoframe\\CliTools\\": "src/"
+        }
+    }
+}
